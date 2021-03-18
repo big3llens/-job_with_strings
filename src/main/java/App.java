@@ -13,7 +13,7 @@ public class App {
                     sb1 = sb2;
                 }
             }
-        }
+        } else System.out.println("Вы ошиблись со скобками, запишите пожалуйста строку в формате: число[строка]");
         System.out.println(sb1.toString());
     }
 
